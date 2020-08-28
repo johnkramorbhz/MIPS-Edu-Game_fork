@@ -10,3 +10,4 @@ node_js:
 branches:
   only:
   - UnitTest
+script: npm test
