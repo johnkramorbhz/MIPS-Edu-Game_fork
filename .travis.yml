@@ -9,6 +9,4 @@ node_js:
 - 14
 branches:
   only:
-  -UnitTest
-# Run the unit test
-script: npm test
+  - UnitTest
