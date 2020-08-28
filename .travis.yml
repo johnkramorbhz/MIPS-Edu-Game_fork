@@ -1,0 +1,14 @@
+# Set the distro to Ubuntu 20.04 LTS
+dist: focal
+# Set the build language to Node JS
+language: node_js
+# Set the python version to 3.8
+node_js:
+- 10
+- 12
+- 14
+branches:
+  only:
+  -UnitTest
+# Run the unit test
+script: npm test
